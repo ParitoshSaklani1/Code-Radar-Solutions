@@ -3,7 +3,7 @@
 int main() {
     char str[100],str1[100];
     int a;
-    scanf("%s" "%d" "s", str,a,str1);
+    scanf("%s" "%d" "%s", str,a,str1);
     printf("Name: %s\nAge: %d\nHobby: %s", str,a,str1);
     return 0;
 }
