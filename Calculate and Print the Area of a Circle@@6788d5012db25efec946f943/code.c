@@ -2,6 +2,6 @@
 
 int main() {
     int r;
-    printf("Area: %.2f", 3.14*r*r);
+    printf("Area: %.2f", 3.14*(r*r));
     return 0;
 }
