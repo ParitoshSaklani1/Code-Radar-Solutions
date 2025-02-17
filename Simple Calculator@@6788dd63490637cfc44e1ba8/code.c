@@ -20,4 +20,5 @@ int main(){
         printf("%d", result);
         break;
     }
+    return 0;
 }
