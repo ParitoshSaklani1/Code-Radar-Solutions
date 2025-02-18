@@ -6,6 +6,6 @@ int main(){
     while(i<=n){
         i++;
     }
-    prinf("%d", i)
+    prinf("%d", i);
     return 0;
 }
