@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int n;
+    int n,i,j;
     scanf("%d", &d);
-    for(int i=n;i>=1;i--){
-        for(int j=n;j<=j;j++){
-            printf("*");
+    for(i=n;i>=1;i--){
+        for(j=n;j<=j;j++){
+            printf("* ");
         }
         printf("\n")
     }
