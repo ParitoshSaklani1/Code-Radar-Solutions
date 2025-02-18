@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main(){
     int n;
-    int i =
+    int i =1;
+    sum= 0;
     scanf("%d", &n);
     while(i<=n){
-        i
+        sum+=i;
+        i++;
     }
+    return 0;
 }
