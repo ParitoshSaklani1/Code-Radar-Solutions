@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    while(i>=5){
+    int n,i;
+    while(i>=n){
         i++;
-        printf("%d ",i);
     }
+    prinf("%d", i)
     return 0;
 }
