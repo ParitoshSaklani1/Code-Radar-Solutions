@@ -1,6 +1,5 @@
 #include<stdio.h>
 int isPrime(int a){
-    scanf("%d", &a);
     if(a%2==0){
         printf("1");
     }else{
