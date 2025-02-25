@@ -9,6 +9,9 @@ int isPrime(int a){
             flag =1;
             break;
         }
+        else{
+            flag = 0;
+        }
     }
     if(flag ==0){
         return 1;
