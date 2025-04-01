@@ -3,10 +3,12 @@ void selectionSort(int arr[], int n){
         int minIndex = i;
         for(int j = i+1; j<n;j++){
             if(arr[j]<minIndex){
-                int temp = minIndex;
-                minIndex = arr[i];
-                temp = arr[i];
+                minIndex =j;
             }
+            int temp = minIndex;
+            minIndex = arr[i];
+            temp = arr[i];
+            
         }
     }
 }
