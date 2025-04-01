@@ -5,8 +5,8 @@ void selectionSort(int arr[], int n){
             if(arr[j]>arr[minIndex]){
                 minIndex =j;
             }
-            int temp = minIndex;
-            minIndex = arr[i];
+            int temp = arr[minIndex];
+            arr[minIndex] = arr[i];
             temp = arr[i];
             
         }
