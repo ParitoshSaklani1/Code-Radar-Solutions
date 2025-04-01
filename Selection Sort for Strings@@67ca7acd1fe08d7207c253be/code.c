@@ -9,7 +9,7 @@ void selectionSort(char arr[][100], int n){
             char temp[100];
             strcpy(temp, arr[minINdex]);
             strcmp(arr[minINdex], arr[i]);
-            strcmp(arr[i], temp)
+            strcmp(arr[i], temp);
         }
     }
 }
