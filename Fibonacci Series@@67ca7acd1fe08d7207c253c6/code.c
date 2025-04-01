@@ -1,5 +1,5 @@
 int fibonacciSeries(int n){
-    int a,b,next;
+    int a=0,b=1,next;
     if(n<=0){
         printf("Error");
     }
